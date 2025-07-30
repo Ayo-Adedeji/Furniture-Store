@@ -9,6 +9,7 @@ import OurGallery from '../components/OurGallery';
 import Spinner from '../components/Spinner';
 import Lookroom from '../components/Lookroom';
 import Footer from '../components/Footer';
+import Herosection from '../components/HeroSection';
 
 
 // const InspiCollection = () => lazy(() => import ('../Components/InspiCollection'));
@@ -18,7 +19,7 @@ const Home = () => {
   return (
     <div>
       <Navbar/>
-      <HeroSection/>
+      <Herosection/>
       <Guarantee/>
       <Suspense fallback={<Spinner/>}>
         <InspiCollection/>

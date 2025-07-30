@@ -3,7 +3,7 @@ import PurchaseImage from "../assets/Purchase Securely.png"
 import Shipfrom from "../assets/Ships From Warehouse.png"
 import Styleyour from "../assets/Style Your Room.png"
 
-const Hiwsection = () => {
+const HowSection = () => {
   return (
     <section className='mx-10 border-t-2 py-4'>
       <div className='flex flex-col m-8 text-center justify-center items-center'> 
@@ -43,4 +43,4 @@ const Hiwsection = () => {
   )
 }
 
-export default Hiwsection;
+export default HowSection;

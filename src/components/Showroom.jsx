@@ -4,7 +4,7 @@ import img5 from "../assets/Image-living room.png"
 import img6 from "../assets/img5.png"
 import { Link } from 'react-router-dom'
 
-const Ourgallery = () => {
+const Showroom = () => {
   return (
     <section className='m-8 '>
           <div className='flex flex-col m-8 text-center justify-center items-center'> 
@@ -45,4 +45,4 @@ const Ourgallery = () => {
   )
 }
 
-export default Ourgallery;
+export default Showroom;

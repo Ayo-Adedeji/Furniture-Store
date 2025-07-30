@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react'
 import Navbar from '../components/Navbar';
-import HeroSection from '../components/HeroSection';
+
 import Guarantee from '../components/Guarantee';
 import InspiCollection from '../components/InspiCollection';
 import Bys from '../components/Bys'
@@ -9,6 +9,7 @@ import OurGallery from '../components/OurGallery';
 import Spinner from '../components/Spinner';
 import Lookroom from '../components/Lookroom';
 import Footer from '../components/Footer';
+import MainSection from '../components/MainSection';
 
 
 
@@ -20,7 +21,7 @@ const Home = () => {
   return (
     <div>
       <Navbar/>
-      <HeroSection/>
+      <MainSection/>
       <Guarantee/>
       <Suspense fallback={<Spinner/>}>
         <InspiCollection/>

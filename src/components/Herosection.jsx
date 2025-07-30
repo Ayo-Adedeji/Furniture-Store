@@ -2,7 +2,7 @@ import Herobg from "../assets/Mask Group.png";
 import { Typewriter } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
 
-const Herosection = () => {
+const HeroSection = () => {
   return (
     <section className="relative">
       <img className="h-[90vh] w-full object-cover" src={Herobg} alt="Hero" />
@@ -46,4 +46,4 @@ const Herosection = () => {
   );
 };
 
-export default Herosection;
+export default HeroSection;
